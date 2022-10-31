@@ -7,7 +7,8 @@
     <title>The band</title>
     <link rel="shortcut icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.YLzV1t5lbEEFMoEXxLtvngAAAA%26pid%3DApi%26h%3D160&f=1&ipt=a17f17c9e00337699ffc523117bfb24684899ef4f46ae2ac453ddc9860dfd378&ipo=images" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="/w3_band/assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
     <div id="main">
@@ -19,7 +20,7 @@
                     <li><a href="#tour">Tour</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             More 
                             <i class="nav-arrow-down ti-arrow-circle-down"></i>
                         </a>
@@ -32,11 +33,15 @@
                </ul>
                <!-- End: nav -->
 
-               <!-- Begin: Search button -->
+               <!--Search button -->
                <div class="search-btn">
                     <i class="search-icon ti-search"></i>
                </div>
-                <!-- End: Search button -->
+
+                <!--Mobile button -->
+                <div id="mobile-menu" class="mobile-menu-btn">
+                    <i class="menu-icon ti-menu"></i>
+                </div>
 
         </div>
 
@@ -57,17 +62,17 @@
                     We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <div class="row member-list">
-                    <div class="col col-third text-center">
+                    <div class="member-item col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
-                        <img src="/w3_band/assets/img/team/member1.jpg" alt="Name" class="member-img">
+                        <img src="./assets/img/team/member1.jpg" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="member-item col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
-                        <img src="/w3_band/assets/img/team/member1.jpg" alt="Name" class="member-img">
+                        <img src="./assets/img/team/member1.jpg" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="member-item col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
-                        <img src="/w3_band/assets/img/team/member1.jpg" alt="Name" class="member-img">
+                        <img src="./assets/img/team/member1.jpg" alt="Name" class="member-img">
                     </div>
                 </div>
             </div>
@@ -87,31 +92,31 @@
 
                     <!-- Places -->
                     <div class="row place-list">
-                        <div class="col col-third">
-                            <img src="/w3_band/assets/img/place/place1.jpg" alt="New York" class="place-img">
+                        <div class="mt-16 col col-third s-col-full">
+                            <img src="./assets/img/place/place1.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn js-buy-ticket s-full-width">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-third">
-                            <img src="/w3_band/assets/img/place/place2.jpg" alt="New York" class="place-img">
+                        <div class="mt-16 col col-third s-col-full">
+                            <img src="./assets/img/place/place2.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time">Sat 28 Nov 2016</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn js-buy-ticket s-full-width">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-third">
-                            <img src="/w3_band/assets/img/place/place3.jpg" alt="New York" class="place-img">
+                        <div class="mt-16 col col-third s-col-full">
+                            <img src="./assets/img/place/place3.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
                                 <p class="place-time">Sun 29 Nov 2016</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn js-buy-ticket s-full-width">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
@@ -124,34 +129,34 @@
                 <p class="section-sub-heading">Fan? Drop a note!</p>
 
                 <div class="row">
-                    <div class="col col-half contact-info">
+                    <div class="col col-half s-col-full contact-info">
                         <p><i class="ti-location-pin"></i>Chicago, US</p>
-                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
-                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                        <p><i class="ti-mobile"></i>Phone: <a href="tel:001515155">+00 1515155</a></p>
+                        <p><i class="ti-email"></i>Mail: <a href="mailto:mail@gmail.com">mail@gmail.com</a></p>
                     </div>
 
-                    <div class="col col-half contact-form">
+                    <div class="col col-half s-col-full contact-form">
                         <form action="">
                             <div class="row mt-8">
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full s-mt-8">
                                     <input type="text" name="" required placeholder="name" id="" class="form-control">
                                 </div>
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full s-mt-8">
                                     <input type="email" name="" required placeholder="email" id="" class="form-control">
                                 </div>
                             </div>    
                             <div class="row mt-8">
-                                <div class="col col-full">
+                                <div class="col col-full s-mt-8">
                                     <input type="text" name="" required placeholder="message" id="" class="form-control">
                                 </div>
                             </div>
-                            <input class="btn mt-16 pull-right" type="submit" value="SEND">
+                            <input class="contact-submit-btn btn mt-16 pull-right s-full-width" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
             </div>
              <!-- End Contact section -->
-             <img class="map-section" src="/w3_band/assets/img/map.jpg" alt="map">
+             <img class="map-section" src="./assets/img/map.jpg" alt="map">
         </div>
 
         <div id="footer">
@@ -202,30 +207,62 @@
     </div> 
 
     <script>
-        const buyBtns = document.querySelectorAll('.js-buy-ticket')
-        const modal = document.querySelector('.js-modal')
-        const modalContainer = document.querySelector('.js-modal-container')
-        const modalClose = document.querySelector('.js-modal-close')
+        const buyBtns = document.querySelectorAll('.js-buy-ticket');
+        const modal = document.querySelector('.js-modal');
+        const modalContainer = document.querySelector('.js-modal-container');
+        const modalClose = document.querySelector('.js-modal-close');
 
         function showBuyTickets() {
-            modal.classList.add('open')
+            modal.classList.add('open');
         }
 
         function hideBuyTickets() {
-            modal.classList.remove('open')
+            modal.classList.remove('open');
         }
 
         for (const buyBtn of buyBtns) {
-            buyBtn.addEventListener('click', showBuyTickets)
+            buyBtn.addEventListener('click', showBuyTickets);
         }
         
-        modal.addEventListener('click', hideBuyTickets)
+        modal.addEventListener('click', hideBuyTickets);
 
-        modalClose.addEventListener('click', hideBuyTickets)
+        modalClose.addEventListener('click', hideBuyTickets);
 
         modalContainer.addEventListener('click', function (event){
-            event.stopPropagation()
+            event.stopPropagation();
         })
+
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+        //Open and close mobile menu
+        mobileMenu.onclick = function() {
+            var isClose = header.clientHeight === headerHeight;
+            if(isClose){
+                header.style.height = 'auto';
+            } else {
+                //header.style.height =  `${headerHeight}px`;
+                header.style.height = null;
+            }
+        }
+
+        //Auto close menu when child got chosen
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for(var i = 0; i < menuItems.length; i++){
+            var menuItem = menuItems[i];
+            
+            menuItem.onclick = function() {
+                var isParentmenu =this.nextElementSibling 
+                    && this.nextElementSibling.classList.contains('subnav');
+
+                if( isParentmenu ){
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+            }
+        }
 
     </script>
 </body>
